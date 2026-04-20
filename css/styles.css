@@ -13,30 +13,30 @@ header {
 
 h1 {
    font-size: 36px;
-   color: #f2eadf;
+   color: red;
    margin-bottom: 10px;
 }
 
 h2 {
    font-size: 28px;
-   color: #ead7bd;
+   color: red;
    margin-top: 20px;
 }
 
 p {
    font-size: 18px;
-   color: #f2eadf;
+   color: red;
    line-height: 1.5;
 }
 
 nav {
-   background-color: #6b5a45;
+   background-color: red;
    padding: 10px;
    margin-bottom: 20px;
 }
 
 nav a {
-   color: #f7f1e8;
+   color: red;
    text-decoration: none;
    margin-right: 15px;
    font-size: 18px;
