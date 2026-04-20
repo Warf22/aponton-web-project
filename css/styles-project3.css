@@ -50,7 +50,7 @@ nav a:hover {
 ul,
 ol {
    font-size: 18px;
-   background-color: #7a6a58;
+   background-color: #4f4337;
    padding: 15px 15px 15px 40px;
    margin-bottom: 20px;
 }
@@ -68,7 +68,7 @@ img {
 
 table {
    font-size: 18px;
-   background-color: #7a6a58;
+   background-color: #4f4337;
    margin-bottom: 20px;
    color: #f2eadf;
    border: 1px solid #f2eadf;
@@ -79,6 +79,7 @@ th,
 td {
    padding: 10px;
    border: 1px solid #f2eadf;
+   color: #f2eadf;
 }
 
 section {
