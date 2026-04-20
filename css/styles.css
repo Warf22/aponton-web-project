@@ -6,37 +6,37 @@ body {
 }
 
 header {
-   background-color: red;
+   background-color: #3f5a36;
    padding: 15px;
    margin-bottom: 20px;
 }
 
 h1 {
    font-size: 36px;
-   color: red;
+   color: #f2eadf;
    margin-bottom: 10px;
 }
 
 h2 {
    font-size: 28px;
-   color: red;
+   color: #ead7bd;
    margin-top: 20px;
 }
 
 p {
    font-size: 18px;
-   color: red;
+   color: #f2eadf;
    line-height: 1.5;
 }
 
 nav {
-   background-color: red;
+   background-color: #6b5a45;
    padding: 10px;
    margin-bottom: 20px;
 }
 
 nav a {
-   color: red;
+   color: #f7f1e8;
    text-decoration: none;
    margin-right: 15px;
    font-size: 18px;
