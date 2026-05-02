@@ -1,0 +1,173 @@
+body {
+   background-color: #5c4b3b;
+   color: #f2eadf;
+   font-family: Arial, sans-serif;
+   margin: 20px;
+}
+
+header {
+   background-color: #3f5a36;
+   padding: 15px;
+   margin-bottom: 20px;
+}
+
+h1 {
+   font-size: 36px;
+   color: #f2eadf;
+   margin-bottom: 10px;
+}
+
+h2 {
+   font-size: 28px;
+   color: #ead7bd;
+   margin-top: 20px;
+}
+
+p {
+   font-size: 18px;
+   color: #f2eadf;
+   line-height: 1.5;
+}
+
+nav {
+   background-color: #6b5a45;
+   padding: 10px;
+   margin-bottom: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 12px;
+}
+
+nav a {
+   color: #f7f1e8;
+   text-decoration: none;
+   font-size: 18px;
+}
+
+nav a:hover {
+   color: #d8c3a5;
+   text-decoration: underline;
+}
+
+main {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+}
+
+section {
+   padding: 15px;
+   margin-bottom: 20px;
+   background-color: #4f4337;
+}
+
+ul,
+ol {
+   font-size: 18px;
+   padding: 15px 15px 15px 40px;
+   margin-bottom: 20px;
+   background-color: #3f342b;
+}
+
+li {
+   margin-bottom: 8px;
+}
+
+img {
+   width: 100%;
+   max-width: 500px;
+   margin-bottom: 20px;
+   border: 3px solid #d8c3a5;
+}
+
+table {
+   font-size: 18px;
+   background-color: #3f342b;
+   margin-bottom: 20px;
+   color: #f2eadf;
+   border: 1px solid #f2eadf;
+   border-collapse: collapse;
+   width: 100%;
+}
+
+th,
+td {
+   padding: 10px;
+   border: 1px solid #f2eadf;
+   color: #f2eadf;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+input,
+button {
+   padding: 10px;
+   font-size: 16px;
+}
+
+button {
+   background-color: #3f5a36;
+   color: #f2eadf;
+   border: none;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #2f4529;
+}
+
+#messageBox {
+   margin-top: 15px;
+   padding: 12px;
+   background-color: #6b5a45;
+   min-height: 30px;
+   border: 2px solid #d8c3a5;
+   font-size: 18px;
+}
+
+footer {
+   background-color: #3f5a36;
+   padding: 10px;
+   margin-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+   body {
+      margin: 10px;
+   }
+
+   main {
+      grid-template-columns: 1fr;
+   }
+
+   nav {
+      flex-direction: column;
+      gap: 8px;
+   }
+
+   h1 {
+      font-size: 28px;
+   }
+
+   h2 {
+      font-size: 22px;
+   }
+
+   p,
+   ul,
+   ol,
+   table,
+   input,
+   button,
+   #messageBox {
+      font-size: 16px;
+   }
+
+   section {
+      padding: 10px;
+   }
+}

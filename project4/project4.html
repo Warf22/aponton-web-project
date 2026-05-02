@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Camping in the Gila National Forest</title>
-   <link rel="stylesheet" href="../css/styles-project3.css">
+   <link rel="stylesheet" href="../css/styles-project4.css">
 </head>
 <body>
 
@@ -14,9 +15,9 @@
 
    <nav>
       <a href="../index.html">Home</a>
-      <a href="project2.html">Project 2</a>
-      <a href="project3.html">Project 3</a>
-      <a href="../project4/project4.html">Project 4</a>
+      <a href="../html/project2.html">Project 2</a>
+      <a href="../html/project3.html">Project 3</a>
+      <a href="project4.html">Project 4</a>
       <a href="https://www.fs.usda.gov/gila" target="_blank" rel="noopener noreferrer">Gila National Forest</a>
    </nav>
 
@@ -72,7 +73,8 @@
          <img src="../images/gila-camping.jpg" alt="Hiking near the Gila River in the Gila National Forest">
 
          <p>
-            I picked this image because it matches the kind of outdoor scenery I think of when I think about camping in the Gila. It shows the natural side of the area and fits the reason I chose this topic for my page.
+            I picked this image because it matches the kind of outdoor scenery I think of when I think about camping in the Gila.
+            It shows the natural side of the area and fits the reason I chose this topic for my page.
          </p>
       </section>
 
@@ -112,11 +114,33 @@
             </tr>
          </table>
       </section>
+
+      <section>
+         <h2>Favorite Place to Camp</h2>
+
+         <p>
+            Use this form to submit your favorite place to camp and get a short message back.
+         </p>
+
+         <form id="campForm">
+            <label for="userName">Your name:</label>
+            <input type="text" id="userName" name="userName">
+
+            <label for="campPlace">Favorite place to camp:</label>
+            <input type="text" id="campPlace" name="campPlace">
+
+            <button type="submit">Submit</button>
+         </form>
+
+         <div id="messageBox" aria-live="polite"></div>
+      </section>
    </main>
 
    <footer>
-      <p>Created for ICT280 Project 3</p>
+      <p>Created for ICT280 Project 4</p>
    </footer>
+
+   <script src="../js/script.js"></script>
 
 </body>
 </html>
